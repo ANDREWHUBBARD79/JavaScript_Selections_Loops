@@ -1,49 +1,49 @@
 
 
-for (let i = 1; i < =99 ; i += 2)
+for (let i = 1; i <= 99 ; i += 2)
 {
     console.log(i);
 }
 
-for (let i = 1; i < =100 ; i ++)
+for (let i = 0; i <= 100 ; i ++)
 {
 if(i % 2 ==0)
-{
+    {
     continue;
 
-       }   
+    }   
        
     else 
     {
     console.log(i);
-       }
+    }
 }
 
 
-for (let i = 1; i < =100 ; i ++)
+for (let i = 1; i <= 100 ; i ++)
 {
 
-    if(i % 2 ==0)
+    if(i % 2 == 0)
     {
         console.log(x);
     }
 
 x++;
 
-} while (x< 100);
+} while (x < 100);
 
 
-for (let i = 1; i < =100 ; i ++)
+for (let i = 1; i <= 100 ; i ++)
 {
 
     let output = "";
 
-    if(i % 3 ==0)
+    if(i % 3 == 0)
     {
         output == "FIZZ";
     }
 
-    if(i % 5 ==0)
+    if(i % 5 == 0)
     {
         output == "BUZZ";
     }
@@ -63,7 +63,7 @@ for (let i = 1; i <= n ; i ++)
 
     
 
-    if(i==numberToFind)
+    if(i ==numberToFind)
     {
        foundValue = true; 
        break;       
