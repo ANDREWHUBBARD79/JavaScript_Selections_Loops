@@ -28,7 +28,7 @@ for (let i = 1; i <= 100 ; i ++)
         console.log(x);
     }
 
-x++;
+i++;
 
 } while (x < 100);
 
